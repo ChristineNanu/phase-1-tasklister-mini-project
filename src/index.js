@@ -25,13 +25,11 @@ function handleToDo (newtask) {
   let btn = document.createElement('button')
  
   css(btn, {
-    'background-color': 'yellow',
+    'background-color': 'black',
     'color': 'red',
      'background' :'red',
   'color' :'#ffffff',
-  'padding' : '6px',
-'margin' : '4px',
-'font-size' :'12px',
+  
 });
 
   btn.addEventListener('click',handleDelete)
